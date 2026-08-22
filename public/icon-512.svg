@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b2b"/>
+      <stop offset="100%" stop-color="#e04400"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="108" fill="none" stroke="white" stroke-width="2" stroke-opacity="0.1"/>
+  <!-- Back page -->
+  <rect x="152" y="116" width="208" height="272" rx="20" fill="white" opacity="0.32"/>
+  <!-- Front page -->
+  <path d="M116 148 Q116 124 140 124 L322 124 L396 198 L396 364 Q396 388 372 388 L140 388 Q116 388 116 364 Z" fill="white"/>
+  <!-- Fold -->
+  <path d="M322 124 L322 198 L396 198 Z" fill="#ff5c1a" opacity="0.25"/>
+  <path d="M322 124 L396 198" stroke="#ff5c1a" stroke-width="3" stroke-opacity="0.32" fill="none"/>
+  <!-- Lines -->
+  <rect x="160" y="252" width="140" height="18" rx="9" fill="#ff5c1a" opacity="0.55"/>
+  <rect x="160" y="284" width="176" height="18" rx="9" fill="#ff5c1a" opacity="0.4"/>
+  <rect x="160" y="316" width="108" height="18" rx="9" fill="#ff5c1a" opacity="0.3"/>
+  <!-- Pencil accent (Toodle) -->
+  <g transform="translate(312,310) rotate(-45)">
+    <rect x="0" y="0" width="10" height="36" rx="2" fill="#ff5c1a" opacity="0.7"/>
+    <polygon points="0,36 10,36 5,48" fill="#ff5c1a" opacity="0.5"/>
+    <rect x="0" y="0" width="10" height="6" rx="2" fill="white" opacity="0.5"/>
+  </g>
+</svg>
